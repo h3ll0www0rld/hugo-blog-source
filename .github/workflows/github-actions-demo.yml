@@ -30,3 +30,4 @@ jobs:
           FOLDER: public
           MESSAGE: blog deploy
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          KNOWN_HOSTS_FILE: host/known_hosts

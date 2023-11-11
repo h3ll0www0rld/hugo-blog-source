@@ -163,3 +163,5 @@ hugo new post/example.md
 
 
 # 云端部署
+这里简述以下原理：  
+源码提交到Github -> Github Actions自动构建并推送到Gitlab -> Vercel构建
