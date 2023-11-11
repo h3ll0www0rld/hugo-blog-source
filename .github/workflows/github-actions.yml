@@ -9,7 +9,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Check Out
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -22,7 +22,8 @@ jobs:
 
       - name: Git Sumbodule Update
         run: |
-          git submodule pull https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+          git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+          git submodule sync https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
 
       - name: Build
         run: hugo
