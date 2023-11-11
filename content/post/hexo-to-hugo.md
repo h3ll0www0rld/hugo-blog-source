@@ -1,7 +1,6 @@
 ---
 title: '从hexo到hugo的迁移'
 date: 2023-11-11T09:57:59+08:00
-draft: false
 description: 本篇文章记录一下自己的博客系统由hexo转到hugo的过程
 tags:
     - 博客
@@ -164,4 +163,5 @@ hugo new post/example.md
 
 # 云端部署
 这里简述以下原理：  
-源码提交到Github -> Github Actions自动构建并推送到Gitlab -> Vercel构建
+源码提交到Github -> Github Actions自动构建并推送到Vercel -> Vercel部署  
+这样的话构建全部放在云端，看着舒服一点

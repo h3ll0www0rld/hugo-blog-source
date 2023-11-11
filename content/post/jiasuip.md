@@ -1,7 +1,6 @@
 ---
 title: '我的世界加速ip搭建及避坑'
 date: 2023-07-21T10:42:09+08:00
-draft: true
 tags:
     - Minecraft
     - 网络通讯

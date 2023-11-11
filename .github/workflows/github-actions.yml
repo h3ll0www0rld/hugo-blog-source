@@ -8,7 +8,8 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      - name: Check Out
+        uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -20,7 +21,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop

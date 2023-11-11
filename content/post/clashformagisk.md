@@ -1,7 +1,6 @@
 ---
 title: 'ClashForMagisk安装及避坑'
 date: 2023-07-30T10:27:37+08:00
-draft: true
 tags:
     - 网络通讯
     - Magisk
