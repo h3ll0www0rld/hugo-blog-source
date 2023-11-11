@@ -26,7 +26,7 @@ jobs:
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: git@gitlab.com:h3ll0_w0rld/hugo-blog-source.git
-          BRANCH: main
+          BRANCH: vercel
           FOLDER: public
           MESSAGE: blog deploy
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
