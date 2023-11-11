@@ -3,6 +3,11 @@ defaultContentLanguage: zh-cn
 title: HWBlog
 theme: hugo-theme-stack
 
+disableKinds:
+  - "taxonomy"
+  - "taxonomyTerm"
+  - "home"
+
 languages:
     zh-cn:
         languageName: 中文
