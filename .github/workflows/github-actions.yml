@@ -20,6 +20,11 @@ jobs:
           hugo-version: '0.120.4'
           extended: true
 
+      - name: Git Sumbodule Update
+        run: |
+          git pull --recurse-submodules
+          git submodule update --remote --recursive  
+
       - name: Build
         run: hugo
 
