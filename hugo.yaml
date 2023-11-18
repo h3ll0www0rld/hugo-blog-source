@@ -1,6 +1,7 @@
 baseURL: https://hwblog.eu.org/
 defaultContentLanguage: zh-cn
 title: HWBlog
+name: h3ll0_w0rld
 theme: hugo-theme-stack
 
 languages:
