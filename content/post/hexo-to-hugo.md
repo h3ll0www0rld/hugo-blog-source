@@ -162,6 +162,6 @@ hugo new post/example.md
 
 
 # 云端部署
-这里简述以下原理：  
+这里简述一下原理：  
 源码提交到Github -> Github Actions自动构建并推送到另一Github分支 -> Github Pages
 途中试过使用Vercel托管，但不知道为啥会报错

@@ -1,21 +1,17 @@
 ---
 title: 'ClashForMagisk安装及避坑'
 date: 2023-07-30T10:27:37+08:00
+description: ClashForMagisk是一款基于magisk的clash网络调试工具，相较于ClashForAndroid占用及功耗更低。如果你连magisk和root都没有听说过的话，我还是建议您使用ClashForAndroid。
 tags:
     - 网络通讯
     - Magisk
 ---
-### 宇宙安全声明
+# 宇宙安全声明
 本教程内所有内容禁止用于任何对国家不利的事情总，ClashForMagisk只是个网络调试工具，请不要用于非法事业，本人概不负责。
 龙的传人需自律，坚决维护国家和平统一，坚持党的伟大领导。
 
 
-### 前言
-ClashForMagisk是一款基于magisk的clash网络调试工具，相较于ClashForAndroid占用及功耗更低。如果你连magisk和root都没有听说过的话，我还是建议您使用ClashForAndroid。
-
-
-<!--more-->
-### 准备
+# 准备
 ClashForMagisk repo: https://github.com/taamarin/ClashforMagisk
 下载直达: https://github.com/taamarin/ClashforMagisk/releases/latest
 Dashboard: https://t.me/MagiskChangeKing/159
@@ -23,7 +19,7 @@ Dashboard: https://t.me/MagiskChangeKing/159
 请确保你已经刷入magisk！
 
 
-### 教程开始
+# 教程开始
 ## 刷入ClashForMagisk
 点击模块 - 然后和其他模块一样刷入
 
@@ -33,7 +29,7 @@ Dashboard: https://t.me/MagiskChangeKing/159
 ## 重启
 
 
-### 配置环节
+# 配置环节
 我们来看看官方README怎么说（无关紧要的内容我直接删除了）
 
 
@@ -75,7 +71,7 @@ you can change the URL
 自动更新GeoIP信息
 
 
-### 避坑环节
+# 避坑环节
 注：以下功能在ClashForMagisk的PreRealse版本似乎已经实现了，仅对3.0及以下版本有参考意义。
 由于没有正确配置UA（及UserAgent），导致使用下载订阅功能下载二代机场订阅时下载下来的是经过base64加密的v2ray订阅，ClashForMagisk无法直接识别。
 因此，我们需要为`clash.tool`文件中的wget指令添加一个UA。
