@@ -1,13 +1,12 @@
 baseURL: https://hwblog.eu.org/
 defaultContentLanguage: zh-cn
-title: HWBlog
-name: h3ll0_w0rld
+title: h3ll0_w0rldの小站
 theme: hugo-theme-stack
 
 languages:
     zh-cn:
         languageName: 中文
-        title: HWblog
+        title: h3ll0_w0rldの小站
         weight: 1
 
 permalinks:
@@ -17,7 +16,11 @@ permalinks:
 params:
     sidebar:
         compact: false
-        subtitle: “唯有戏子才能引起群众巨大的兴奋”
+        subtitle:  “秦人不暇自哀，而后人哀之；后人哀之而不鉴之，亦使后人而复哀后人也。”
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.png
     mainSections:
         - post
     featuredImageField: image

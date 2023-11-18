@@ -57,7 +57,7 @@ IPLC/IEPL属于私人内网线路，也就是说它并不会和其它线路走�
 # 加速ip搭建
 自己去搜教程，B站有很多。这里我就简单地提一嘴。
 在加速ip搭建选用的程序方面，我推荐贴吧蜡油的ZBProxy，在github上开源。
-repo：https://github.com/layou233/ZBProxy
+[repo](https://github.com/layou233/ZBProxy)
 根据你的vps的型号，在action里下载最新的构建版本。
 然后上传到你的vps，输入：
 ```

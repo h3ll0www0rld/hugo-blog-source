@@ -4,6 +4,13 @@
     {{ $filtered := ($pages | intersect $notHidden) }}
     {{ $pag := .Paginate ($filtered) }}
 
+    <div class="welcome">
+            <p style="font-size: 2rem; text-align: center; font-weight: bold">
+            <span class="shake">👋</span>
+            <span class="text" > 欢迎回家！</span>
+        </p>
+    </div>
+
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}
             {{ partial "article-list/default" . }}

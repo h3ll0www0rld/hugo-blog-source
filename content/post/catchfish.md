@@ -10,10 +10,12 @@ tags:
 
 # 2023.11
 极域破解工具：JiYuTrainer
-repo：https://github.com/imengyu/JiYuTrainer
-gittee：https://gitee.com/imengyu/JiYuTrainer
-release直达：https://github.com/imengyu/JiYuTrainer/releases/download/1.7.6/JiYuTrainer.exe
+[repo](https://github.com/imengyu/JiYuTrainer)  
+[gittee](https://gitee.com/imengyu/JiYuTrainer)  
+[release直达](https://github.com/imengyu/JiYuTrainer/releases/download/1.7.6/JiYuTrainer.exe)
 
-POKI小游戏网：https://poki.com/zh
+POKI小游戏网
+[链接](https://poki.com/zh)
 
-PCL(Plain Minecraft Launcher)：https://ltcat.lanzoum.com/iFdWg1ctpq8h（版本：2.6.0）
+PCL(Plain Minecraft Launcher)
+[蓝奏云盘](https://ltcat.lanzoum.com/iFdWg1ctpq8h)（版本：2.6.0）

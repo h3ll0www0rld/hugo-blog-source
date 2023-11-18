@@ -45,106 +45,8 @@ draft: true
 theme: 'hugo-theme-stack'
 ```
 其中`'hugo-theme-stack'`为你theme目录下的主题名  
-以下为我的配置文件（参考https://sdl.moe/post/hexo-transfer-to-hugo/）
-<details>
+可以参考[我的配置文件](https://github.com/h3ll0www0rld/hugo-blog-source/blob/main/hugo.yaml)
 
-```yaml
-baseURL: https://hwblog.eu.org/
-defaultContentLanguage: zh-cn
-title: HWBlog
-theme: hugo-theme-stack
-
-languages:
-    zh-cn:
-        languageName: 中文
-        title: HWblog
-        weight: 1
-
-permalinks:
-    post: /post/:filename/
-    page: /:filename/
-
-params:
-    sidebar:
-        compact: false
-        subtitle: “唯有戏子才能引起群众巨大的兴奋”
-    mainSections:
-        - post
-    featuredImageField: image
-
-    article:
-        math: true
-        toc: true
-        readingTime: true
-        license:
-            enabled: true
-            default: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0</a>'
-
-    imageProcessing:
-        cover:
-            enabled: true
-        content:
-            enabled: true
-    widgets:
-        homepage:
-            - type: search
-            - type: archives
-              params:
-                  limit: 3
-            - type: tag-cloud
-              params:
-                  limit: 10
-        page:
-            - type: toc
-
-menu:
-    main:
-        - identifier: home
-          name: 首页
-          url: /
-          weight: -100
-          params:
-              newTab: false
-              icon: home
-
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/h3ll0www0rld
-          params:
-              newTab: true
-              icon: brand-github
-
-related:
-    includeNewer: true
-    threshold: 60
-    toLower: false
-    indices:
-        - name: tags
-          weight: 100
-
-        - name: categories
-          weight: 200
-
-taxonomies:
-    tag: tags
-
-markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    tableOfContents:
-        endLevel: 6
-        ordered: true
-        startLevel: 1
-    highlight:
-        noClasses: false
-        codeFences: true
-        guessSyntax: true
-        lineNumbersInTable: true
-        tabWidth: 4
-```
-</details>
 
 ## 关于搜索、归档、链接等
 进入`themes/hugo-theme-stack/exampleSite/content/page`中，将所有内容覆盖到你的`content`文件夹里
@@ -167,4 +69,4 @@ hugo new post/example.md
 途中试过使用Vercel托管，但不知道为啥会报错
 
 # 开源地址
-如果你想直接抄作业的话，repo：https://github.com/h3ll0www0rld/hugo-blog-source
+如果你想直接抄作业的话，[repo](https://github.com/h3ll0www0rld/hugo-blog-source)

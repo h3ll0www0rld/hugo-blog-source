@@ -12,9 +12,9 @@ tags:
 
 
 # 准备
-ClashForMagisk repo: https://github.com/taamarin/ClashforMagisk  
-下载直达: https://github.com/taamarin/ClashforMagisk/releases/latest  
-Dashboard: https://t.me/MagiskChangeKing/159
+ClashForMagisk [repo](https://github.com/taamarin/ClashforMagisk)  
+[下载直达](https://github.com/taamarin/ClashforMagisk/releases/latest)  
+[Dashboard](https://t.me/MagiskChangeKing/159)
 
 请确保你已经刷入magisk！
 
