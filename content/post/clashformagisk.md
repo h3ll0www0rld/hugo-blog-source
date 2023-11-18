@@ -73,7 +73,7 @@ you can change the URL
 
 # 避坑环节
 注：以下功能在ClashForMagisk的PreRealse版本似乎已经实现了，仅对3.0及以下版本有参考意义。  
-由于没有正确配置UA（及UserAgent），导致使用下载订阅功能下载二代机场订阅时下载下来的是经过base64加密的v2ray订阅，ClashForMagisk无法直接识别。  
+由于没有正确配置UA（即UserAgent），导致使用下载订阅功能下载二代机场订阅时下载下来的是经过base64加密的v2ray订阅，ClashForMagisk无法直接识别。  
 因此，我们需要为`clash.tool`文件中的wget指令添加一个UA。
 
 找到`/data/clash/scripts/clash.tool`，通过搜索找到`update_file()`这一功能在下面两句wget指令后添加
