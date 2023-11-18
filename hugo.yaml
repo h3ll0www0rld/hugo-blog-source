@@ -3,11 +3,6 @@ defaultContentLanguage: zh-cn
 title: HWBlog
 theme: hugo-theme-stack
 
-disableKinds:
-  - "taxonomy"
-  - "taxonomyTerm"
-  - "home"
-
 languages:
     zh-cn:
         languageName: 中文
@@ -52,6 +47,14 @@ params:
             - type: toc
 
 menu:
+    main:
+        - identifier: home
+          name: 首页
+          url: /
+          weight: -100
+          params:
+              newTab: false
+              icon: home
     social:
         - identifier: github
           name: GitHub
@@ -70,6 +73,9 @@ related:
 
         - name: categories
           weight: 200
+
+taxonomies:
+    tag: tags
 
 markup:
     goldmark:

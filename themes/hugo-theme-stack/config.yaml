@@ -140,8 +140,3 @@ params:
             enabled: true
         content:
             enabled: true
-
-disableKinds:
-  - "taxonomy"
-  - "taxonomyTerm"
-  - "home"
