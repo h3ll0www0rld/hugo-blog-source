@@ -13,6 +13,7 @@ tags:
 [repo](https://github.com/imengyu/JiYuTrainer)  
 [gittee](https://gitee.com/imengyu/JiYuTrainer)  
 [release直达](https://github.com/imengyu/JiYuTrainer/releases/download/1.7.6/JiYuTrainer.exe)
+[国内用这个](https://gitee.com/wds824/JiYuTrainer/releases/download/1.7.6/JiYuTrainer.exe)
 
 POKI小游戏网
 [链接](https://poki.com/zh)
